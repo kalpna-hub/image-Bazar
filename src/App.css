@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+  background-image: radial-gradient(plum,white,rgb(187, 246, 226));
+
+}
+.App{
+ 
+  align-items: center;
+
+  
+
+}img{
+
+   border-radius: 5px;
+  width: 33.333333%;
+
+display: inline-flex;
+  flex-wrap: wrap;
+  
+}.search{
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(187, 246, 226);
+  border: 5px solid plum;
+  border-radius: 5px;
+}input,button{
+  width:33.3%;
+  height: 40px;
+  background-color:white;
+  border:5px solid plum;
+  color:plum;
+  text-align: center;
+  padding: 0px;
+  font-size: medium;
+  border-radius: 12px;
+  margin: 10px;
+
+  
+}input::placeholder{
+  color:plum;
+}input:focus{
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+  img{
+    display: flex;
+    width:100%;
+    border:5px solid plum;
+  }
+  
+}
